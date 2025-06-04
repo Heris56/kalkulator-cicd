@@ -12,6 +12,8 @@ function isOperator(value) {
     return ['/', '*', '-', '+'].includes(value);
 }
 
+
+
 function clearDisplay() {
     display.value = '';
 }
