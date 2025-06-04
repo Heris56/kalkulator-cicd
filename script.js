@@ -12,10 +12,6 @@ function isOperator(value) {
     return ['/', '*', '-', '+'].includes(value);
 }
 
-function clearDisplay() {
-    display.value = '';
-    let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
-}
 
 
 function clearDisplay() {
